@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: edu.sc.bse3211.meetingplanner.PersonTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in edu.sc.bse3211.meetingplanner.PersonTest
+testAddMeeting_december_shouldSucceed(edu.sc.bse3211.meetingplanner.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+FAULT EXPOSED - December rejected by >= 12 check: Conflict for attendee Namugga Martha:
+Month does not exist.
+	at edu.sc.bse3211.meetingplanner.PersonTest.testAddMeeting_december_shouldSucceed(PersonTest.java:110)
+

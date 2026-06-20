@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.sc.bse3211.meetingplanner.PersonTest" time="0.035" tests="20" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator\Downloads\meetingplanner\target\test-classes;C:\Users\Administrator\Downloads\meetingplanner\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Nairobi"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3207937105034967866\surefirebooter11365773347797767788.jar C:\Users\Administrator\AppData\Local\Temp\surefire3207937105034967866 2026-05-05T20-01-04_643-jvmRun1 surefire3461244776679448139tmp surefire_09954094012300351586tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\Downloads\meetingplanner\target\test-classes;C:\Users\Administrator\Downloads\meetingplanner\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Administrator\Downloads\meetingplanner"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3207937105034967866\surefirebooter11365773347797767788.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.1+8-34"/>
+    <property name="user.name" value="David"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.1"/>
+    <property name="user.dir" value="C:\Users\Administrator\Downloads\meetingplanner"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.15\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Launcher\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.1+8-34"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="testPrintAgenda_month_returnsNonNullString" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testIsBusy_afterAddMeeting_returnsTrue" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testIsBusy_freshCalendar_returnsFalse" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.005"/>
+  <testcase name="testAddMeeting_fullDayBlock_markedBusy" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.003"/>
+  <testcase name="testRemoveMeeting_invalidIndex_exposeFault1" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testIsBusy_hourAbove23_throwsException" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testAddMeeting_thenGetMeeting_returnsCorrectMeeting" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testAddMeeting_startAfterEnd_throwsException" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testRemoveMeeting_slotFreedAfterRemoval" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testAddMeeting_dayZero_throwsException" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testPrintAgenda_day_containsMeetingInfo" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testAddMeeting_validMeeting_noException" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testAddMeeting_overlap_throwsWithPersonName" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testAddMeeting_twoNonOverlapping_bothAdded" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testAddMeeting_december_shouldSucceed" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001">
+    <failure message="FAULT EXPOSED - December rejected by &gt;= 12 check: Conflict for attendee Namugga Martha:&#10;Month does not exist." type="java.lang.AssertionError">java.lang.AssertionError: 
+FAULT EXPOSED - December rejected by >= 12 check: Conflict for attendee Namugga Martha:
+Month does not exist.
+	at edu.sc.bse3211.meetingplanner.PersonTest.testAddMeeting_december_shouldSucceed(PersonTest.java:110)
+</failure>
+  </testcase>
+  <testcase name="testIsBusy_partialOverlap_returnsTrue" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.002"/>
+  <testcase name="testDefaultConstructor_nameIsEmpty" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.005"/>
+  <testcase name="testPrintAgenda_emptyDay_containsDateNoMeetings" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.003"/>
+  <testcase name="testNamedConstructor_storesName" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testAddMeeting_monthZero_throwsException" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+</testsuite>

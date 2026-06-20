@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: edu.sc.bse3211.meetingplanner.CalendarTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.149 s <<< FAILURE! - in edu.sc.bse3211.meetingplanner.CalendarTest
+testAddMeeting_twoNonOverlappingMeetings(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: 10-11 gap should be free
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_twoNonOverlappingMeetings(CalendarTest.java:75)
+
+testAddMeeting_decemberMeeting_shouldSucceed(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: FAULT EXPOSED - December rejected by >= 12 bug: Month does not exist.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_decemberMeeting_shouldSucceed(CalendarTest.java:90)
+
+testIsBusy_april31_documentActualBehaviour(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: BUG DOCUMENTED: April 31 returns false instead of throwing
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testIsBusy_april31_documentActualBehaviour(CalendarTest.java:233)
+
